@@ -21,7 +21,7 @@ func init() {
 }
 
 type channel struct {
-	que      *pubsub.Queue
+	que      *pubsub.DurationQueue
 	hasAudio bool
 	hasVideo bool
 }
@@ -178,7 +178,9 @@ func (s *server) handlePublish(conn *rtmp.Conn) {
 	if ch == nil {
 		ch = &channel{}
 		//ch.metadata = metadata
-		ch.que = pubsub.NewQueue()
+		ch.que = pubsub.NewDurQueue()
+		ch.que.SetTargetTime(2 * time.Second)
+		//ch.que.SetMaxGopCount(100)
 		ch.que.WriteHeader(streams)
 		for _, stream := range streams {
 			typ := stream.Type()
