@@ -30,7 +30,7 @@ type DurationQueue struct {
 	closed                       bool
 }
 
-func NewDurQueue() *DurationQueue {
+func NewDurationQueue() *DurationQueue {
 	q := &DurationQueue{}
 	q.buf = pktque.NewBuf()
 	q.targettime = 2 * time.Second
