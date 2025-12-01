@@ -1,3 +1,3 @@
-module github.com/datarhei/joy4
+module github.com/flumixa/joy4
 
 go 1.14

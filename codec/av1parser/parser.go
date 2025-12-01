@@ -1,7 +1,7 @@
 package av1parser
 
 import (
-	"github.com/datarhei/joy4/av"
+	"github.com/flumixa/joy4/av"
 )
 
 type CodecData struct {

@@ -2,10 +2,10 @@ package avconv
 
 import (
 	"fmt"
-	"github.com/datarhei/joy4/av"
-	"github.com/datarhei/joy4/av/avutil"
-	"github.com/datarhei/joy4/av/pktque"
-	"github.com/datarhei/joy4/av/transcode"
+	"github.com/flumixa/joy4/av"
+	"github.com/flumixa/joy4/av/avutil"
+	"github.com/flumixa/joy4/av/pktque"
+	"github.com/flumixa/joy4/av/transcode"
 	"io"
 	"time"
 )

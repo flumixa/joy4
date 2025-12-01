@@ -4,7 +4,7 @@ package pktque
 import (
 	"time"
 
-	"github.com/datarhei/joy4/av"
+	"github.com/flumixa/joy4/av"
 )
 
 type Filter interface {

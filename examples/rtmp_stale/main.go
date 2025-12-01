@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/datarhei/joy4/av"
-	"github.com/datarhei/joy4/format/rtmp"
+	"github.com/flumixa/joy4/av"
+	"github.com/flumixa/joy4/format/rtmp"
 )
 
 func main() {

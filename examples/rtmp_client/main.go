@@ -8,10 +8,10 @@ import (
 	"os"
 	"time"
 
-	"github.com/datarhei/joy4/av"
-	"github.com/datarhei/joy4/codec/h264parser"
-	"github.com/datarhei/joy4/format"
-	"github.com/datarhei/joy4/format/rtmp"
+	"github.com/flumixa/joy4/av"
+	"github.com/flumixa/joy4/codec/h264parser"
+	"github.com/flumixa/joy4/format"
+	"github.com/flumixa/joy4/format/rtmp"
 )
 
 func init() {

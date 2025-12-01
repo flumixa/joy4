@@ -1,8 +1,8 @@
 package mp4
 
 import (
-	"github.com/datarhei/joy4/av"
-	"github.com/datarhei/joy4/format/mp4/mp4io"
+	"github.com/flumixa/joy4/av"
+	"github.com/flumixa/joy4/format/mp4/mp4io"
 	"time"
 )
 

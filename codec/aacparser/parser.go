@@ -6,8 +6,8 @@ import (
 	"io"
 	"time"
 
-	"github.com/datarhei/joy4/av"
-	"github.com/datarhei/joy4/utils/bits"
+	"github.com/flumixa/joy4/av"
+	"github.com/flumixa/joy4/utils/bits"
 )
 
 // copied from libavcodec/mpeg4audio.h

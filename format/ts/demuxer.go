@@ -3,11 +3,11 @@ package ts
 import (
 	"bufio"
 	"fmt"
-	"github.com/datarhei/joy4/av"
-	"github.com/datarhei/joy4/codec/aacparser"
-	"github.com/datarhei/joy4/codec/h264parser"
-	"github.com/datarhei/joy4/format/ts/tsio"
-	"github.com/datarhei/joy4/utils/bits/pio"
+	"github.com/flumixa/joy4/av"
+	"github.com/flumixa/joy4/codec/aacparser"
+	"github.com/flumixa/joy4/codec/h264parser"
+	"github.com/flumixa/joy4/format/ts/tsio"
+	"github.com/flumixa/joy4/utils/bits/pio"
 	"io"
 	"time"
 )

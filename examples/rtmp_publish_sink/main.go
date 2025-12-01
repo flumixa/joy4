@@ -6,8 +6,8 @@ import (
 	"io"
 	"net"
 
-	"github.com/datarhei/joy4/format"
-	"github.com/datarhei/joy4/format/rtmp"
+	"github.com/flumixa/joy4/format"
+	"github.com/flumixa/joy4/format/rtmp"
 )
 
 func init() {

@@ -6,8 +6,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/datarhei/joy4/av"
-	"github.com/datarhei/joy4/av/pktque"
+	"github.com/flumixa/joy4/av"
+	"github.com/flumixa/joy4/av/pktque"
 )
 
 //        time
